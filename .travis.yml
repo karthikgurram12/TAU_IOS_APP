@@ -1,10 +1,13 @@
 language: swift
+rvm:
+  - 2.7.0  # Specify Ruby version 2.7.0 or higher
 osx_image: xcode15.3
 branches:
   only:
     - main
 
 before_install:
+  - gem update --system
   - gem install fastlane --no-document
 install: true
 script:

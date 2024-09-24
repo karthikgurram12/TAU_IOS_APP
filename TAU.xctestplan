@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "70ECD84D-7DC5-4D89-AA3F-DA10FDA25260",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TAU.xcodeproj",
+      "identifier" : "9B5BC709220F55C20047CFA4",
+      "name" : "TAU"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "TAUTests",
+        "TAUTests\/testExample()",
+        "TAUTests\/testPerformanceExample()"
+      ],
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "9B5BC71D220F55D20047CFA4",
+        "name" : "TAUTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "TAUUITestBase",
+        "TAUUITests\/testdebugArea()"
+      ],
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "A7A7BAE72C8E076F0069862D",
+        "name" : "TAUUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
