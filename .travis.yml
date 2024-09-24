@@ -7,7 +7,6 @@ branches:
     - main
 
 before_install:
-  - gem update --system
   - gem install fastlane --no-document
 install: true
 script:
