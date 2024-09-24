@@ -5,7 +5,7 @@ branches:
     - main
 
 before_install:
-  -gem install fastlane --no-document
+  - gem install fastlane --no-document
 install: true
 script:
-  -fastlane scan --scheme TAU --device "iPhone XR"
+  - fastlane scan --scheme TAU --device "iPhone XR"
